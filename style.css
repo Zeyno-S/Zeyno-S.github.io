@@ -2,13 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root{
-    --textcolor: #361515; /* Light Gray */
-    --primary-color: #7e5200; /* Dark Orange */
-    --secondary-color: #580000; /* Dark Blue */
-    --link-color: #ff002b; /* Lighter Blue for links */
-    --space-background: #002855; /* Dark Blue */
+    --textcolor: #ffffff; /* text color */
+    --primary-color: #6ba0d4; /* background */
+    --link-color: #1f43a4; /* link icons color */
 }
-
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,13 +23,14 @@ body{
     position: relative;
     height: 100vh;
     color: var(--textcolor);
-    background-image: linear-gradient(120deg, #550000 0%, #60a569 100%);
+    background-color: var(--primary-color);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 
+
 h2, .white{
-    color: var(--primary-color); /* Dark Orange */
+    color: var(--textcolor); /* Dark Orange */
 }
 
 a{
@@ -78,7 +76,7 @@ h2, .white, a:hover, .caption, ul {
 .section-2 h2{
     font-size: 1.7rem;
     margin-bottom: 10px;
-    color: var(--primary-color); /* Dark Orange */
+    color: var(--textcolor); /* Dark Orange */
 }
 
 .section-2 p{
