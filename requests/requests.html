@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="request.css">
+</head>
+<body>
+   <header><h1>Request Form</h1></header>
+
+
+   <form action="">
+       <fieldset id="pers-info">
+           <legend> Personal Information </legend>
+       <label for="name">Name:</label>
+       <input type="text" name="name" id="name">
+       <label for="grade">Grade:</label>
+       <label for="9th">9th <input type="radio" name="grade" id="grade"></label>
+       <label for="10th">10th <input type="radio" name="grade" id="grade"></label>
+      <label for="11th">11th <input type="radio" name="grade" id="grade"></label>
+      <label for="12th">12th <input type="radio" name="grade" id="grade"></label>
+       </fieldset>
+       <fieldset id="app-info">
+           <label for="date">date:</label>
+           <input type="date" name="date" id="date">
+           <label for="type">Request Type:</label>
+       <select name="type" id="type">
+           <option value="1">
+               Counselor
+           </option>
+           <option value="2">
+               Admin
+           </option>
+           <option value="3">
+               Teacher
+           </option>
+           <option value="4">
+               Security
+           </option>
+       </select>
+       </fieldset>
+       <div id="submit">Submit</div>
+   </form>
+
+
+   <script src="request.js"></script>
+</body>
+</html>

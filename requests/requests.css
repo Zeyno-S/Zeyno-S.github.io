@@ -1,0 +1,32 @@
+fieldset{
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   font-size: 1.5rem;
+
+
+}
+
+
+form{
+   justify-self: center;
+}
+
+
+h1{
+   background-color: aqua;
+   text-align: center;
+}
+
+
+select{
+   font-size: 1.1rem;
+}
+#submit{
+   text-align: center;
+   height: 20px;
+   width: 40px;
+   background-color: blue;
+   padding: 10px;
+}
+

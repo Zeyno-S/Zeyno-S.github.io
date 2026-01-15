@@ -1,0 +1,9 @@
+.img-card{
+    padding: 5px;
+    border: rgb(0, 38, 255), 10px;
+    border-radius: 9px;
+
+    corner-shape: squircle;
+
+    background-color: black;
+}

@@ -1,0 +1,51 @@
+@media screen {
+    body{
+  background-image: (red, white);
+  }
+}
+
+
+#pk-holder {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+.pk-card {
+  width: 200px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.06);
+  padding-bottom: fit-content;
+  border: 3px, solid, pink;
+  box-shadow: 5px, red;
+  background-image: repeating-linear-gradient(rgb(213, 45, 0), rgb(239, 118, 39),rgb(255, 255, 255),  rgb(	209, 98, 164), rgb(163, 2, 98));
+  border-image: url('border-1.png.png') 4 round;
+}
+
+.pk-card__header {
+  background: #c83939; 
+  color: #ffffff;
+  font-weight: 700;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.pk-card__img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  margin: 12px auto;
+  display: block;
+}
+
+.pk-card__meta {
+  color: #333;
+}
+
+.img-card{
+    padding: 5px;
+    border: rgb(0, 38, 255), 2rem;
+    border-radius: 10px;
+}
