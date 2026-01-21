@@ -30,3 +30,7 @@ select{
    padding: 10px;
 }
 
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
