@@ -1,0 +1,24 @@
+/* Define the holy grail layout and list its parts:
+-  It is the classic layout of web design, it contains a footer, header, and main portion. and then you can add right or left sidebars
+
+Explain how a sticky footer works with Flexbox and why min-height: 100svh helps
+-- basically you can make this sticky footer go verticle, so you force it to fill all available space. Setting minimums like 100svh is good for mobile device streamlining
+
+Why is align-items: stretch often better than fixed heights for cards
+-- Essentially letting the align-item: stretch is better because it looks more professional, this appears more consistent and therefore better for dyanmic, because it adjusts to layout.
+
+Write two flex shorthand examples and explain their grow/shrink/basis parts.
+-- by using flex and setting it to, say 2, then you have allowed when nesasary for the box to grow or shrink, and the auto/base is basically the original set usage.
+
+Why is changing visual order with the order property risky for UX?
+-- this could create accesability failiurs or disconnect from usability, because is the holy grail layout is changed too much, then it will become confusing for screen readers to sort of identify the conponents. */
+
+.box{
+  flex: 2 ;
+}
+
+.box {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 2;
+}
