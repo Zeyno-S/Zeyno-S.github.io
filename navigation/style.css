@@ -1,0 +1,172 @@
+.card{
+    display: grid
+    gap: 20px;
+}
+
+.one{
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.two{
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.three{
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 420px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.four{
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 630px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.five{
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 840px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.one:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.two:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.three:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.four:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.five:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.six:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.seven:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.eight:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nine:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ten:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+    margin-top: 3px;
+    align-self: center;
+
+}
+
+.six{
+    text-align: center;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.seven{
+    text-align: center;
+    position: absolute;
+    top: 320px;
+    left: 210px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.eight{
+    text-align: center;
+    position: absolute;
+    top: 320px;
+    left: 420px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.nine{
+    text-align: center;
+    position: absolute;
+    top: 320px;
+    left: 630px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}
+
+.ten{
+    text-align: center;
+    position: absolute;
+    top: 320px;
+    left: 840px;
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(152, 241, 255);
+}

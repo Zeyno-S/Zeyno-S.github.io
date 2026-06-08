@@ -1,0 +1,79 @@
+.egg{
+    width: 200px;
+    height: 250px;
+    background:  linear-gradient(rgb(255, 110, 135), rgb(251, 255, 201), rgb(251, 255, 201), rgb(255, 144, 163));
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    border: 0.05px solid #000;
+}
+
+.spots{
+    width: 60px;
+    height: 65px;
+    background-color: #ff77e6;
+    border-radius: 50%;
+    top: 80px;
+    left: 375px;
+    position: absolute;
+}
+
+.spots2{
+    width: 55px;
+    height: 60px;
+    background-color: #95fff4;
+    border-radius: 50%;
+    top: 150px;
+    left: 275px;
+    position: absolute;
+}
+
+.spots3{
+    width: 50px;
+    height: 50px;
+    background-color: #ef5cff;
+    border-radius: 50%;
+    top: 240px;
+    left: 325px;
+    position: absolute;
+}
+
+.spots4{
+    width: 60px;
+    height: 65px;
+    background-color: #66ff85;
+    border-radius: 50%;
+    top: 190px;
+    left: 390px;
+    position: absolute;
+}
+
+.smile{
+    width: 100px;
+    height: 50px;
+    border-bottom: 5px solid #000;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 310px;
+}
+
+.eye1{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 290px;
+}
+
+.eye2{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 390px;
+}

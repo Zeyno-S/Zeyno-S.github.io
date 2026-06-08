@@ -1,0 +1,21 @@
+:root{
+    margin: 0px;
+    padding:0px;
+    background-color: rgb(134, 180, 220);
+}
+form input{
+    display: block;
+}
+@keyframes fm{
+    from {background-color: rgb(143, 105, 188)};
+    to {background-color: rgb(158, 212, 233)};
+}
+form{
+    width: fit-content;
+    border: 40px;
+    animation-name: fm;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+

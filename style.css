@@ -1,0 +1,48 @@
+  /* these are the two colors I use across my sites, one lighter blue, and one more deep blue for nav bars and footers */
+:root {
+  --blueone: #32b0ff;
+  --bluetwo: #0088ff;
+}
+.star{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 100px;
+    height: 100px;
+    background-color: var(--bluetwo);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: spin 5s linear infinite;
+    opacity: 1;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: var(--blueone);
+  padding: 10px;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.footer {
+position: -webkit-sticky;
+position: sticky;
+background-color: var(--blueone);
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+@media (max-width: 48rem) {
+  nav {
+    flex-direction: column;
+  }
+}

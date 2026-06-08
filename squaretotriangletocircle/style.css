@@ -1,0 +1,47 @@
+.conatiner {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.sqrcirc {
+   display: flex;
+   justify-content: center;
+   width: 0;
+   height: 0;
+   border-radius: 0%;
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
+   border-bottom: 120px solid #555;
+   animation: rad 4s infinite;
+}
+@keyframes rad {
+   0% {
+     border-radius: 0%;
+     background-color: transparent;
+   }
+ 25% {
+   border-radius: 0%;
+   height: 40px;
+   width: 40px;
+   background-color: #555;
+
+
+ }
+ 50% {
+   border-radius: 50%;
+   background-color: #555;
+ }
+ 75% {
+   border-radius: 50%;
+   background-color: #555;
+ }
+ 100% {
+   border-radius: 25%;
+   background-color: transparent;
+ }
+}
+
+

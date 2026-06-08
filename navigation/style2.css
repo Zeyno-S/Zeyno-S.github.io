@@ -1,0 +1,10 @@
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #32b0ff;
+  padding: 10px;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}

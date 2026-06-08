@@ -1,0 +1,53 @@
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tri1 {
+    display: flex;
+    justify-content: center;
+    width: 0px;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #ca0000;
+    animation: rotateopp 2s infinite ease-in-out;
+}
+
+.tri2 {
+  display: flex;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid #ca0000;
+  transform-origin: top;
+  animation: rotate 2s infinite ease-in-out;
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateopp {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.animationstart {
+  animation: rotate 2s infinite forwards;
+}

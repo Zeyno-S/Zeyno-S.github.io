@@ -1,33 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: bold;
+        }
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            border: 10px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .error {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <div class="nav"></div>
-        <a href="/pokemon/poke.html">Pokemon Project</a>
-        <a href="/gallery/gallery.html">Gallery</a>
-        <a href="requests/requests.html">requests</a>
-        </div>
-    </nav>
-    <header>
-       <h1>Github Projects</h1>
-   <h3>Zeyneps home page</h3>
-   </header>
-   <section>
-   "For scilence is the language of God and all else is poor translation" -Rumi <br> <br>
-   "Look not for a person in the ocean, but the ocean in a person" -Rumi  <br> <br>
-   "Journeys end in lovers meeting" - Shakespeare  <br> <br>
-   "Freedom is the right of all Sentient beings" - Optimus Prime  <br> <br>
-   "I honed my skills in the pits of Kaon" - Megatron  <br> <br>
+    <div class="login-container">
+        <h1>Sign In</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit">Sign In</button>
+            <div id="error" class="error"></div>
+        </form>
+    </div>
 
-   
-</section>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
